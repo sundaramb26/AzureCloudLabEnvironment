@@ -141,7 +141,7 @@ resource "azurerm_container_registry_task" "build_terraform_image_task" {
   }
   docker_step {
     dockerfile_path      = "Dockerfile"
-    context_path         = "https://github.com/wongcyrus/terraform-azure-cli#master"
+    context_path         = "https://github.com/sundaramb26/terraform-azure-cli#master"
     context_access_token = "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"
     image_names          = ["terraformazurecli:latest"]
     arguments = {
@@ -152,7 +152,7 @@ resource "azurerm_container_registry_task" "build_terraform_image_task" {
 }
 
 data "http" "docker_file" {
-  url = "https://raw.githubusercontent.com/wongcyrus/terraform-azure-cli/master/Dockerfile"
+  url = "https://raw.githubusercontent.com/sundaramb26/terraform-azure-cli/master/Dockerfile"
 }
 
 resource "null_resource" "run_arc_task" {

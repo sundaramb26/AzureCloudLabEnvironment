@@ -17,6 +17,6 @@ variable "ENVIRONMENT" {
   default = "dev"
 }
 variable "LOCATION" {
-  default = "EastAsia"
+  default = "AustraliaEast"
 }
 
