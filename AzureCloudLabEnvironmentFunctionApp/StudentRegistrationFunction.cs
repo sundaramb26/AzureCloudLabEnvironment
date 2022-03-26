@@ -133,7 +133,7 @@ public static class StudentRegistrationFunction
     <h1>Azure Cloud Lab Environment</h1>
     {content}
     <footer>
-        <p>Developed by <a href='https://www.vtc.edu.hk/admission/en/programme/it114115-higher-diploma-in-cloud-and-data-centre-administration/'> Higher Diploma in Cloud and Data Centre Administration Team.</a></p>
+        <p>Developed by <a href='www.google.com'> Higher Diploma in Cloud and Data Centre Administration Team.</a></p>
     </footer>
 </body>
 </html>";

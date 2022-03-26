@@ -1,6 +1,6 @@
 # SECRETS, PLEASE PROVIDE THESE VALUES IN A TFVARS FILE
 variable "APP_NAME" {}
-variable "SUBSCRIPTION_ID" {}
+variable "SUBSCRIPTION_ID" { }
 variable "TENANT_ID" {}
 variable "CALENDAR_URL" {}
 variable "EMAIL_SMTP" {}
